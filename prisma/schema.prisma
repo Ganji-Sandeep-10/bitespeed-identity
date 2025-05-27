@@ -22,3 +22,9 @@ model Contact {
   linkedContact  Contact?  @relation("Link", fields: [linkedId], references: [id])
   secondaryLinks Contact[] @relation("Link")
 }
+
+/// For this small use case, a single Contact table works well and keeps things simple.
+/// But for a larger system, we could scale this into two tables:
+/// one for primary identities (UserIdentity) and another for contact methods (Contact),
+/// linked by a foreign key. This separation improves clarity, normalization,
+/// and makes future features (like account merging or audit logs) easier to manage.
