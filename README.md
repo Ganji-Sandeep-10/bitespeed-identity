@@ -5,7 +5,8 @@ This project solves the Bitespeed backend engineering task — building a system
 ---
 
 ## 🚀 Live API
-[https://your-service-name.onrender.com/identify](https://your-service-name.onrender.com/identify)
+API          - [https://your-service-name.onrender.com](https://your-service-name.onrender.com)
+API endpoint - [https://your-service-name.onrender.com/identify](https://your-service-name.onrender.com/identify)
 
 ---
 
