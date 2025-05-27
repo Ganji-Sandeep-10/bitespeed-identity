@@ -5,9 +5,7 @@ This project solves the Bitespeed backend engineering task — building a system
 ---
 
 ## 🚀 Live API
-
-> 🔗 Deployed URL: [https://your-api-url.onrender.com/identify](#)  
-_Replace this with your live Render URL once deployed_
+[https://your-service-name.onrender.com/identify](https://your-service-name.onrender.com/identify)
 
 ---
 
